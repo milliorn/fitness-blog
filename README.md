@@ -6,6 +6,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 <https://nextjs.org/docs/api-reference/create-next-app>
 
+## Install Tailwind CSS with Next.js
+
+<https://tailwindcss.com/docs/guides/nextjs>
+
+## @tailwindcss/typography
+
+<https://tailwindcss.com/docs/typography-plugin>
+
 ## Getting Started
 
 First, run the development server:
