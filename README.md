@@ -14,6 +14,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 <https://tailwindcss.com/docs/typography-plugin>
 
+## react-icons
+
+<https://www.npmjs.com/package/react-icons>
+
 ## Getting Started
 
 First, run the development server:
