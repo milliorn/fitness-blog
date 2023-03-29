@@ -10,6 +10,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 <https://tailwindcss.com/docs/guides/nextjs>
 
+## @tailwindcss/typography
+
+<https://tailwindcss.com/docs/typography-plugin>
+
 ## Getting Started
 
 First, run the development server:
