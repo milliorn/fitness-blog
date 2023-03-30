@@ -33,7 +33,9 @@ export function getSortedPostsData(): BlogPost[] {
   return allPostsData.sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
-export async function getPostData(id: string): Promise<BlogPost & { contentHtml: string; }> {
+export async function getPostData(
+  id: string
+): Promise<BlogPost & { contentHtml: string }> {
   const fullPath = path.join(postsDirectory, `${id}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
 

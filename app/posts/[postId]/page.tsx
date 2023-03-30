@@ -14,7 +14,7 @@ export function generateStaticParams(): { postId: string }[] {
 export function generateMetadata({ params }: { params: { postId: string } }): {
   title: string;
 } {
-  const posts = getSortedPostsData(); //deduped!
+  const posts = getSortedPostsData();
   const { postId } = params;
 
   const post = posts.find((post) => post.id === postId);
@@ -35,7 +35,7 @@ export default async function Post({
 }: {
   params: { postId: string };
 }): Promise<JSX.Element> {
-  const posts = getSortedPostsData(); //deduped!
+  const posts = getSortedPostsData();
   const { postId } = params;
 
   if (!posts.find((post) => post.id === postId)) {
@@ -53,7 +53,7 @@ export default async function Post({
       <article>
         <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
         <p>
-          <Link href="/">← Back to home</Link>
+          <Link href="/">← Go Back</Link>
         </p>
       </article>
     </main>
