@@ -1,9 +1,8 @@
 {
-  "name": "next06",
+  "name": "blog",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "git-update": "git fetch && git pull",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

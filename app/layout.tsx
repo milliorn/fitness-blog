@@ -3,15 +3,15 @@ import Navbar from "./components/Navbar";
 import ProfilePic from "./components/ProfilePic";
 
 export const metadata = {
-  title: "Fitness Blog",
-  description: "Blog about my fitness days and routines.",
+  title: "Ftiness Blog",
+  description: "Blog detailing my gym and fitness routines",
 };
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
-}) {
+}): JSX.Element {
   return (
     <html lang="en">
       <body className="dark:bg-slate-800">
