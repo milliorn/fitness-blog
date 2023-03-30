@@ -1,7 +1,7 @@
 import { getSortedPostsData } from "@/lib/posts";
 import ListItem from "./Listitem";
 
-export default function Posts() {
+export default function Posts(): JSX.Element {
   const posts = getSortedPostsData();
 
   return (
