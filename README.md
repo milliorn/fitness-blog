@@ -18,6 +18,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 <https://www.npmjs.com/package/react-icons>
 
+## gray-matter
+
+<https://www.npmjs.com/package/gray-matter>
+
 ## Getting Started
 
 First, run the development server:
