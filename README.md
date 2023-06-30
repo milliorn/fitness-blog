@@ -1,6 +1,6 @@
 # Next.js Blog
 
-This is a Next.js project for a personal blog. It was bootstrapped with create-next-app.
+"Next.js blog that serves as a platform for sharing content. It is built using Next.js, a powerful React framework for server-side rendering and static site generation. The project includes features such as automatic optimization and loading of custom Google Fonts with next/font, integration of Tailwind CSS for styling and typography using @tailwindcss/typography, and the use of popular React icons from the react-icons package. It also leverages gray-matter for parsing front matter in Markdown files and remark and remark-html for processing and converting Markdown to HTML. With this repository, you can create, edit, and deploy your blog easily and efficiently."
 
 ## Getting Started
 
